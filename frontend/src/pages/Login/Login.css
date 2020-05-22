@@ -1,0 +1,95 @@
+.login-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url("../../assets/background-2.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-sub-container {
+    display: flex;
+    height: 70%;
+    width: 70%;
+}
+
+.left-side {
+    height: 100%;
+    width: 55%;
+    background-color: #A5C5B7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side > img {
+    height: 70%;
+    width: 80%;
+}
+
+.description {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 20px;
+}
+
+.right-side {
+    height: 100%;
+    width: 45%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container > img {
+    height: 24px;
+}
+
+.fields-container { 
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem 0 4rem;
+}
+
+.sign-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-container > button {
+    width: 160px;
+    height: 39px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #696969;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.fields-container > div {
+    margin-bottom: 5px;
+}
+
+.create-account {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    color: #69635F;
+}
+
+.create-account > div > span {
+    border-bottom: 1px solid #69635F;
+    cursor: pointer;
+}
