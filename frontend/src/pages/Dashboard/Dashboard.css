@@ -1,0 +1,45 @@
+.dashboard-container {
+    height: 100%;
+}
+
+.dashboard-container > header {
+    position: relative;
+    height: 47px;
+    background-color: #6C63FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-container > header > strong {
+    color: white;
+}
+
+.dashboard-container > header > button {
+    position: absolute;
+    right: 5px;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.dashboard-container > main  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-container > main > button {
+    width: 160px;
+    height: 39px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #6C63FF;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5rem;
+}
